@@ -20,6 +20,27 @@ The goal is to encode practical engineering habits into reusable skill folders s
 | [`research`](skills/research/SKILL.md) | Structured topic research before decisions |
 | [`read`](skills/read/SKILL.md) | Fetch and normalize content from online sources |
 
+## Install
+
+Install directly from GitHub with the `skills` CLI.
+
+### Codex
+
+```bash
+npx skills add janakirampuli/agent-skills -a codex -g -y
+```
+
+### Claude Code
+
+```bash
+npx skills add janakirampuli/agent-skills -a claude-code -g -y
+```
+
+Notes:
+- Remove `-y` if you want interactive selection instead of installing all skills.
+- Re-run the same command anytime to get updates.
+- After install, restart your tool and run `/skills` to verify available skills.
+
 ## Structure
 
 ```text
@@ -43,11 +64,9 @@ The goal is to encode practical engineering habits into reusable skill folders s
 
 ## Template
 
-Each skill currently uses a template-only `SKILL.md` based on the Anthropic skills template format:
+Skills follow the Anthropic template format:
 - YAML frontmatter with `name` and `description`
-- Placeholder body (`# Insert instructions below`)
-
-No workflow content has been added yet.
+- Markdown instructions body (some skills are still placeholder scaffolds)
 
 ## Inspiration
 
