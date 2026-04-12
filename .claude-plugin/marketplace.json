@@ -1,0 +1,22 @@
+{
+  "name": "janakirampuli-agent-skills",
+  "owner": {
+    "name": "Janaki Ram Puli",
+    "email": "janakirampuli@gmail.com"
+  },
+  "metadata": {
+    "description": "Personal agent skills by Janaki Ram Puli",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "frontend-design",
+      "description": "Design intentional, distinctive web interfaces with clear visual direction.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/frontend-design"
+      ]
+    }
+  ]
+}

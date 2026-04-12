@@ -1,0 +1,20 @@
+{
+  "name": "janakirampuli-agent-skills",
+  "interface": {
+    "displayName": "Janaki Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "frontend-design",
+      "source": {
+        "source": "local",
+        "path": "./plugins/frontend-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

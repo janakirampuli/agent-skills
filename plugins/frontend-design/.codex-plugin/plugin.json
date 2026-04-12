@@ -1,0 +1,47 @@
+{
+  "name": "frontend-design",
+  "version": "0.1.0",
+  "description": "Frontend design skill for building intentional web interfaces.",
+  "author": {
+    "name": "Janaki Ram Puli",
+    "email": "janakirampuli@gmail.com",
+    "url": "https://github.com/janakirampuli"
+  },
+  "homepage": "https://github.com/janakirampuli/agent-skills",
+  "repository": "https://github.com/janakirampuli/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "frontend",
+    "design",
+    "ui"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Frontend Design",
+    "shortDescription": "Design distinct web interfaces with strong visual direction.",
+    "longDescription": "A skill for frontend interface design that emphasizes typography, visual identity, intentional motion, and non-generic layouts.",
+    "developerName": "Janaki Ram Puli",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Reason"
+    ],
+    "websiteURL": "https://github.com/janakirampuli/agent-skills",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Design a bold landing page layout for a developer tool.",
+      "Create a full page UI concept with clear art direction.",
+      "Refine this component to feel less generic and more intentional."
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot1.png",
+      "./assets/screenshot2.png",
+      "./assets/screenshot3.png"
+    ]
+  }
+}

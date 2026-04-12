@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-skills",
+  "description": "Personal agent skills by Janaki Ram Puli.",
+  "owner": {
+    "name": "Janaki Ram Puli",
+    "email": "janakirampuli@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "frontend-design",
+      "description": "Design intentional, distinctive web interfaces with clear visual direction.",
+      "version": "0.1.0",
+      "category": "development",
+      "source": "./skills/frontend-design",
+      "homepage": "https://github.com/janakirampuli/agent-skills"
+    }
+  ]
+}
